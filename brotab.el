@@ -59,5 +59,5 @@
         (shell-command (s-concat "bt activate " (ht-get name-map chosen-name)))
       (shell-command (s-concat "echo ''|bt new 'a' " chosen-name)))))
 
-(provide 'bt)
-;;; bt.el ends here
+(provide 'brotab)
+;;; brotab.el ends here
