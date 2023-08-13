@@ -1,0 +1,6 @@
+A minimal emacs utility for interacting with Brotab: https://github.com/balta2ar/brotab. Essentially, it lets you search and navigate open Chrome/Firefox tabs from within Emacs using ~completing-read~.
+
+The main entry point is the ~brotab~ function, which opens a completing-read of your open tabs.
+If you enter a string not matching a tab, it will google that string for you.
+
+It's a bit brittle and designed for my specific use case, where I only have one browser and one profile as my daily driver. I might extend it in the future or if you want to fork it be my guest.
